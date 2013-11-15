@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+group :assets do
+  gem 'bootstrap-sass', '~> 2.3.1.0'
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
@@ -12,17 +16,17 @@ group :development do
   gem 'sqlite3'
 end
 
-# Use SCSS for stylesheets
+# Use SCSS for stylesheets - took out to conform to bloc standards with 3.2.3
 gem 'sass-rails', '~> 4.0.0'
 
-# Use Uglifier as compressor for JavaScript assets
+# Use Uglifier as compressor for JavaScript assets - took out to conform to bloc
 gem 'uglifier', '>= 1.3.0'
 
-# Use CoffeeScript for .js.coffee assets and views
+# Use CoffeeScript for .js.coffee assets and views - changed to bloc specs
 gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
