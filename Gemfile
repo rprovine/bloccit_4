@@ -16,6 +16,8 @@ group :development do
   gem 'sqlite3'
 end
 
+gem 'rails_12factor', group: :production
+
 # Use SCSS for stylesheets - took out to conform to bloc standards with 3.2.3
 gem 'sass-rails', '~> 4.0.0'
 
